@@ -11,6 +11,8 @@ set OrganizationId = #TempUsers.OrganizationId,
 from #TempUsers
 where Users.Name = 'John' and #TempUsers.Name = 'John'
 
+
+-- Select above this line and execute
 commit
 
 select *
@@ -18,7 +20,7 @@ from Users
 where Name = 'John 1234'
 
 
--- run below in another session
+-- Run below in another session
 
 begin transaction;
 

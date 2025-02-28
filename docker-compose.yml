@@ -1,10 +1,8 @@
-
 services:
-  azure-sql:
-    image: mcr.microsoft.com/azure-sql-edge
-    environment:
-      ACCEPT_EULA: y
-      MSSQL_SA_PASSWORD: secure_password123
-      MSSQL_PID: Developer
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
     ports:
-      - 1434:1433
+      - '1434:1433'
+    environment:
+      ACCEPT_EULA: 1
+      MSSQL_SA_PASSWORD: secure_password123
