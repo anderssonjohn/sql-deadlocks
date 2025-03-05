@@ -88,7 +88,8 @@ When designing applications to handle concurrency, consider these best practices
 ## Further Reading
 
 - [SQL Server Transaction Locking and Row Versioning Guide](https://docs.microsoft.com/en-us/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide)
-- [Understanding and resolving SQL Server deadlocks](https://docs.microsoft.com/en-us/sql/relational-databases/understand-and-resolve-sql-server-blocking)
+- [Deadlocks Guide](https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-deadlocks-guide)
+- [Analyze and prevent deadlocks](https://learn.microsoft.com/en-us/azure/azure-sql/database/analyze-prevent-deadlocks)
 - [Transaction Isolation Levels](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql)
 
 Connectionsträng
